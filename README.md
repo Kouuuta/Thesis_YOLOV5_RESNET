@@ -21,3 +21,7 @@
    runs/detect/exp/
 
 ## YUNG FOLDER NA "MODELS" EMPTY LANG YAN FOR ANO YAN OWN EXPERIMENTS NA WHICH IS PAPASOK NA UNG RESNET 50
+
+## Run this sa terminal ng VSC para macheck if ginagamit ung GPU or hinde 
+python -c "import torch; print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'No GPU')"
+
