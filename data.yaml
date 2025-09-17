@@ -1,0 +1,20 @@
+train: data/train/images
+val: data/val/images
+
+nc: 60   
+names: [
+  'Aluminium foil', 'Battery', 'Aluminium blister pack', 'Carded blister pack',
+  'Clear plastic bottle', 'Glass bottle', 'Plastic bottle cap', 'Metal bottle cap',
+  'Broken glass', 'Cigarette', 'Paper cup', 'Disposable plastic cup',
+  'Foam cup', 'Glass cup', 'Other plastic cup', 'Food Can', 'Aerosol',
+  'Drink can', 'Corrugated carton', 'Drink carton', 'Egg carton', 'Meal carton',
+  'Pizza box', 'Plastic film', 'Six pack rings', 'Garbage bag', 'Plastic gloves',
+  'Plastic utensils', 'Plastic straw', 'Paper straw', 'Paper bag', 'Plastic bag & wrapper',
+  'Spread tub', 'Tupperware', 'Disposable food container', 'Foam food container',
+  'Other plastic container', 'Plastic lid', 'Metal lid', 'Crisp bag', 'Foil',
+  'Spread lid', 'Jar', 'Magazine', 'Tissues', 'Wrapping paper', 'Normal paper',
+  'Paper plate', 'Styrofoam piece', 'Unlabeled litter', 'Plastic bottle with liquid',
+  'Metal can with liquid', 'Paper with food', 'Plastic with food', 'Metal with food',
+  'Glass with food', 'Battery pack', 'Plastic container with food', 'Take away bag',
+  'Take away cup', 'Other waste'
+]
