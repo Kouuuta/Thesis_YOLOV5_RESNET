@@ -1,6 +1,8 @@
 ## Setup
 
-1. pip install -r requirements.txt
+1. https://zenodo.org/records/3587843 download the dataset ZIP FILE, after nyan kunin lang yung folder na "data" then ignore other file or folder
+   
+   pip install -r requirements.txt
 
    pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
@@ -8,15 +10,15 @@
 
    pip install -r yolov5/requirements.txt
 
-2. Pang start training pero adjustable yan
+4. Pang start training pero adjustable yan
 
    python train.py --img 640 --batch 16 --epochs 50 --data ../ML_PROJECT/data.yaml --weights yolov5s.pt
 
-3. Pag tapos na yung training, testing ng model to
+5. Pag tapos na yung training, testing ng model to
 
    python detect.py --weights runs/train/exp/weights/best.pt --source data/val/images
 
-4. Run detection on your validation images and save outputs in
+6. Run detection on your validation images and save outputs in
 
    runs/detect/exp/
 
